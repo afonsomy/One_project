@@ -11,7 +11,7 @@ I am starting the use of Git to make a documentation of my personal projects and
 2. docs - Documentation of projects and research materials
 3. engineer - any tool and resource used to manipulate large data sets
 4. env - information about environment make to Python
-5. notebook - Jupyter Projects
+5. notebook - Jupyter Projects - Lis of Projects
 6. science - other resources about Data Science works like R
 
 
@@ -20,20 +20,12 @@ I am starting the use of Git to make a documentation of my personal projects and
 
 The environment is make for que python library and Git Hub project.
 
-#### 1. Git Hub project connections
+1. Git Hub project connections [Install Python](//home/afonso/Projects/One_projetc)
 
-The web pages that I used to create the Git connections are.
 
-Basic installing:
-> https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-18-04
 
-Jetbrains information about use Git and PyCharm:
-> https://www.jetbrains.com/help/pycharm/using-git-integration.html
 
-Git Hub and Ubuntu information:
-> https://help.ubuntu.com/lts/serverguide/git.html
-
-Changing standard shell to z...
+#### 2. Changing standard shell to z...
 
 Well everybody say that zsh is the better shell to use together Git and Python. I'm starting to use too.
 
@@ -60,6 +52,13 @@ The main configuration file for Zsh is located under $HOME/.zshrc while the Oh-m
 
 If more details is necessary I can make a search in Google webpages like:
 > https://kifarunix.com/how-to-install-and-setup-zsh-and-oh-my-zsh-on-ubuntu-18-04/
+>
+> https://casparwre.de/blog/zsh-in-ubuntu-1804/
+
+
+#### 3. Installing Python 
+
+
 
 
 ### Notebook
