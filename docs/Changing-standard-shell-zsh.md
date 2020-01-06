@@ -27,3 +27,22 @@ If more details is necessary I can make a search in Google webpages like:
 > https://kifarunix.com/how-to-install-and-setup-zsh-and-oh-my-zsh-on-ubuntu-18-04/
 >
 > https://casparwre.de/blog/zsh-in-ubuntu-1804/
+>
+
+Check the shell active:
+> echo "$SHELL"
+
+or
+
+> ps -p $$
+
+Check how many shell were installed:
+> cat /etc/shells
+
+More commands about shell are available on:
+> https://www.cyberciti.biz/tips/how-do-i-find-out-what-shell-im-using.html
+
+
+
+
+
