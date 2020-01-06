@@ -1,18 +1,22 @@
 ## Personal Projects on GitHub
 
-I am starting the use of Git to make a documentation of my personal projects and studies.
+I'm new in the Git world and decide make a project to introduce myself in these tolls.
 
+First of all I made a documentation of how I configure my Linux Ubuntu to use Git, Python, PyCharm e Jupyter.
+
+This environment will be used in Data Science studies.
+
+After that I will configure my account in AWS by code for use features like S3, lambda/EMR, Step Functions and SageMake.
+
+This environment will be used in projects of data engineering.
  
 
 ***
 ### List of Contents 
 
-1. The Environment
-2. docs - Documentation of projects and research materials
-3. engineer - any tool and resource used to manipulate large data sets
-4. env - information about environment make to Python
-5. notebook - Jupyter Projects - Lis of Projects
-6. science - other resources about Data Science works like R
+1. The Environment - 
+2. notebook - Jupyter Projects - Lis of Projects
+
 
 
 ***
