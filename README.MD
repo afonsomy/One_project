@@ -20,7 +20,7 @@ I am starting the use of Git to make a documentation of my personal projects and
 
 The environment is make for que python library and Git Hub project.
 
-1. Git Hub project connections - [Install Python](https://github.com/afonsomy/One_project/blob/master/docs/Git-Hub-Project-Connections.md)
+1. Git Hub project connections - [Install Python](docs/Git-Hub-Project-Connections.md)
 
 
 
