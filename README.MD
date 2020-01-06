@@ -26,8 +26,8 @@ The environment is make for que python library and Git Hub project.
 1. Git Hub project connections - [Install Python](docs/Git-Hub-Project-Connections.md)
 2. Changing standard shell to zsh - [Install zsh](docs/Changing-standard-shell-zsh.md)
 3. Installing Python - [Install Python](docs/Install-Python.md)
-4. Installing Jupyter - []()
-5. Environment to Python - []()
+4. Installing Jupyter - [Install Jupyter](docs/Install-jupyter.md)
+5. Environment to Python - [env]()
 
 
 
