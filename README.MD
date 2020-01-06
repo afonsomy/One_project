@@ -29,9 +29,13 @@ The environment is make for que python library and Git Hub project.
 4. Installing Jupyter - [Install Jupyter](docs/Install-jupyter.md)
 5. Environment to Python - [env](docs/env.md)
 
-
+> config prompt: PS1="\afonso@$ "
 
 ### Notebook
+
+
+
+
 
 
 
