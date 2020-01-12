@@ -130,6 +130,8 @@ Install new packages
 
 Note: based in the webpage (https://www.techiediaries.com/ubuntu-install-python/)
 
+Reference: https://virtualenv.pypa.io/en/latest/index.html
+
 ### 4) Jupyter
 
 ####  Activating your Python 3 Virtual Environment
@@ -186,8 +188,42 @@ From the main menu, choose VCS | Import into Version Control | Share Project on 
 #### Configure PyCharm to works with my virtual environment Python 3.7
 
 
+File --> Settings --> Project Interpreter --> Project Interpreter DialogBox (put down) 
 
-#### Notebook
+Click in config button:
+
+![Interpreter](docs/images/interpreter-1.png)
+
+Choose create a new environment or one there exist:
+
+![Interpreter](docs/images/interpreter-2.png)
+
+### 6) Install all common Python Packages to Analytics, Data Science and Data Engineer.
+
+We prepared a shell script to install all packages that will necessary to work.
+
+Changed shell script executable:
+> chmod +x deploy-python-library-env
+
+Install all packages
+> ./deploy-python-library-env
+
+A good material about how shell scripst:
+
+> https://linuxhint.com/30_bash_script_examples/
+>
+> https://www.learnshell.org/
+>
+
+### 7) Oh My Zsh
+
+
+> https://github.com/ohmyzsh/ohmyzsh
+
+# Notebooks
+
+
+
 
 
 
