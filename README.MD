@@ -2,7 +2,7 @@
 
 I used the knowledge accumulate this last months to create a step by step project can help anyone to create a usefully Linux Ubuntu notebook prepared to use in data science and data engineer projects.
 
-It is a complete environment conecting resources like Python, GitHub, Jupyter, PyCharm and Ubuntu Linux.
+It is a complete environment connecting resources like Python, GitHub, Jupyter, PyCharm and Ubuntu Linux.
 ***
 ### List of Contents 
 
