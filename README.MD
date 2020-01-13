@@ -1,11 +1,16 @@
 # Personal Projects on GitHub
 
+This project was made to be a starting to create a workstation to be usefully in projects of Data Science and Data Engineer.
+
+It was a complete environment conecting resources of Python, GitHub, Jupyter, PyCharm and Ubuntu Linux.
+
 
 ***
 ### List of Contents 
 
 1. The Environment - Prepare a notebook with Ubuntu to works a Analytics Workstation
-2. Notebooks - Jupyter Projects - Lis of Projects
+2. AWS Stuffs
+3. Notebooks - Jupyter Projects - List of Projects
 
 
 
@@ -18,13 +23,14 @@
 
 https://github.com/afonsomy/One_project
 
-
+***
 ### 1) Install Google Chrome
 
 https://www.google.com/chrome/
 
 Download buttton --> will open Ubuntu installer
 
+***
 ### 2) GitHub
 
 Install GitHub
@@ -56,7 +62,7 @@ $ git pull origin master
 More details to make commits and pull/push manually in command line directly on:
 https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
 
-
+***
 ### 3) Python
 
 #### Install Python
@@ -81,12 +87,13 @@ The notebooks in my repository will use Python 3.
 
 > sudo apt update
 
-##### Step 4: Install Python 3.7
+##### Step 4: Install Python 3
 
 > sudo apt install python3.7
 
 > python3.7 --version
 
+***
 #### Install PIP
 
 Installing PIP by Python 3 on Ubuntu 18.04.
@@ -110,8 +117,6 @@ You can create a virtual environment using the venv module. In your terminal, ru
 
 > python3 -m venv env
 
-I needs deleter the old env folder with Python 3.6 version.
-
 ####  Activating your Python 3 Virtual Environment
 
 > source env/bin/activate
@@ -132,6 +137,7 @@ Note: based in the webpage (https://www.techiediaries.com/ubuntu-install-python/
 
 Reference: https://virtualenv.pypa.io/en/latest/index.html
 
+***
 ### 4) Jupyter
 
 ####  Activating your Python 3 Virtual Environment
@@ -161,11 +167,29 @@ References:
 
 Remember that the Jupyter only was installed in virtual environment.
 
+### Installing Python and Jupyter using a shell script file
+
+We create a shell script to install Python 3 and Virtual Environment and Jupyter on the fly:
+
+Will be necessary make the file executable:
+
+> $ chmod +x deploy-python-jupyter.sh
+
+After that execute de shell script below:
+
+> $ deploy-python-jupyter.sh
+
+***
 ### 5) PyCharm
 
 #### Now we will install PyCharm.
 
-For analytics task normally we will use Jupyter but for more complex Python program meanly to make maintance of GitHub we prefer use PyCharm.
+For analytics task normally we will use Jupyter but for more complex Python program and to make maintance of GitHub we prefer use PyCharm.
+Let's see how is it:
+
+![Interpreter](docs/images/pycharm.png)
+
+
 
 Installing...
 
@@ -215,11 +239,75 @@ A good material about how shell scripst:
 > https://www.learnshell.org/
 >
 
+***
 ### 7) Oh My Zsh
 
+We will install a new shell more interisting that traditional bash.
 
+Installing zhs:
+> sudo apt install zsh
+
+Check shell installed:
+> zsh --version
+
+Make it your default shell: 
+> chsh -s $(which zsh)
+
+Check it:
+> apropos shell | grep sh | \
+>  sed 's/ .*//;s/.*/which &/e;/^\/bin\//!d;s/.*/realpath &/e;/^\/bin\//!d' | \
+>  sort -u | xargs whatis
+
+Install curl and wget, if necessary:
+> apt install curl
+> apt install wget
+
+Installing Oh My Zsh:
+
+> sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+>
+> curl -Lo install.sh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+>
+> sh install.sh
+>
+
+Maybe we needs restarting the notebook to change.
+After that we can check:
+> echo $SHELL
+
+
+Reference material:
+>
 > https://github.com/ohmyzsh/ohmyzsh
+>
+> https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 
+***
+# AWS Stuffs
+
+We install aws client to connect in S3 bucket to put someting or get something.
+
+Install aws-cli:
+> sudo apt-get install awscli
+>
+> aws --version
+
+An user must be created in IAM console. For security we not show this part. Details could be see in:
+> https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_cliwpsapi
+
+
+Configure access:
+> aws configure
+>> AWS Access Key ID [None]: xxxx
+>> AWS Secret Access Key [None]: xxxx
+>> Default region name [None]: <aws region>
+>> Default output format [None]: <Name>
+ 
+List files in S3 bucket:
+> aws s3 ls s3://<Your Bucket Name>
+
+
+***
 # Notebooks
 
 
