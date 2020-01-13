@@ -13,7 +13,7 @@ It was a complete environment conecting resources of Python, GitHub, Jupyter, Py
 
 
 ***
-# The Environment 
+# 1. The Environment 
 
 ### Prepare a Linux Ubuntu notebook to works a Analytics Workstation
 
@@ -279,7 +279,7 @@ Reference material:
 > https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 
 ***
-# AWS Stuffs
+# 2. AWS Stuffs
 
 We install aws client to connect in S3 bucket to put someting or get something.
 
@@ -294,17 +294,22 @@ An user must be created in IAM console. For security we not show this part. Deta
 
 Configure access:
 > aws configure
+>
 >> AWS Access Key ID [None]: xxxx
+>>
 >> AWS Secret Access Key [None]: xxxx
->> Default region name [None]: <aws region>
->> Default output format [None]: <Name>
+>>
+>> Default region name [None]: "aws region"
+>>
+>> Default output format [None]: "Name"
  
 List files in S3 bucket:
-> aws s3 ls s3://<Your Bucket Name>
+> aws s3 ls s3://"Your Bucket Name"
+>
 
 
 ***
-# Notebooks
+# 3. Notebooks
 
 
 
