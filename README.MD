@@ -189,15 +189,13 @@ Let's see how is it:
 
 ![Interpreter](docs/images/pycharm.png)
 
-
-
-Installing...
+#### Installing using sudo
 
 > sudo snap install pycharm-community --classic
 
 This way is easy but depends of connectivity of network. The way downloading the files and installing manually is faster than it.
 
-References? 
+References:
 > https://linuxize.com/post/how-to-install-pycharm-on-ubuntu-18-04/
 
 Check
