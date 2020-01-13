@@ -1,7 +1,6 @@
 # Personal Projects on GitHub
 
-I used the knwoledge cumulate this last months to create a step by step project can help anyone to create a usefully Linux Ubuntu notebook prepared to use in data science and data engineer projects.
-
+I used the knowledge accumulate this last months to create a step by step project can help anyone to create a usefully Linux Ubuntu notebook prepared to use in data science and data engineer projects.
 It was a complete environment conecting resources of Python, GitHub, Jupyter, PyCharm and Ubuntu Linux.
 
 ***
