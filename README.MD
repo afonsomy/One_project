@@ -33,29 +33,35 @@ Download buttton --> will open Ubuntu installer
 
 Install GitHub
 
+```
 $ sudo apt update
 $ sudo apt install git
 $ git --version
-
+```
 Set Up GitHub
 
+```
 $ git config --global user.name "afonsomy"
 $ git config --global user.email "afonsomy@gmail.com"
 $ git config --list
-
+```
 
 Initialize the local directory as a Git repository:
 
+```
 $ mkdir projects
 $ cd projects
 $ git init
+```
 
 Clone repo:
 
 https://github.com/afonsomy/One_project.git
 
+```
 $ git remote add origin https://github.com/afonsomy/One_project.git
 $ git pull origin master
+```
 
 More details to make commits and pull/push manually in command line directly on:
 https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
@@ -63,73 +69,107 @@ https://help.github.com/en/github/importing-your-projects-to-github/adding-an-ex
 ***
 ### 3) Python
 
+### Installing Python and Jupyter using a shell script file
+
+We create a shell script to install Python 3 and Virtual Environment and Jupyter on the fly:
+
+Will be necessary make the file executable:
+``
+$ chmod +x deploy-python-jupyter.sh
+``
+
+After that execute de shell script below:
+``
+ $ deploy-python-jupyter.sh
+``
+
+For more manually way see below:
+
 #### Install Python
 
 The notebooks in my repository will use Python 3.
 
 ##### Check version:
 
-> python ––version
+```
+python ––version
+```
 
 ##### Step 1: Update and Refresh Repository Lists
 
-> sudo apt update
+```
+sudo apt update
+```
 
 ##### Step 2: Install Supporting Software
 
-> sudo apt install software-properties-common
+```
+sudo apt install software-properties-common
+```
 
 ##### Step 3: Add Deadsnakes PPA
 
-> sudo add-apt-repository ppa:deadsnakes/ppa
+```
+sudo add-apt-repository ppa:deadsnakes/ppa
 
-> sudo apt update
+sudo apt update
+```
 
 ##### Step 4: Install Python 3
 
-> sudo apt install python3.7
+```
+sudo apt install python3.7
 
-> python3.7 --version
+python3.7 --version
+```
 
 ***
 #### Install PIP
 
 Installing PIP by Python 3 on Ubuntu 18.04.
+```
+sudo apt install -y python3-pip
 
-> sudo apt install -y python3-pip
+pip3 install flask
 
-> pip3 install flask
-
-> pip3 --version
+pip3 --version
+```
 
 #### Install venv tool
 
 venv lets you create virtual environments for your Python 3 projects. A virtual environment is an isolated environment for packages
 **venv** is a module that belongs to the standard Python 3 SDK. If it’s not bundled with your Python 3 installation, it can be installed using the following command:
 
-> sudo apt install python3-venv
+```
+sudo apt install python3-venv
+```
 
 #### Creating your Python 3 Virtual Environment
 
 You can create a virtual environment using the venv module. In your terminal, run the following command:
-
-> python3 -m venv env
+```
+python3 -m venv env
+```
 
 ####  Activating your Python 3 Virtual Environment
-
-> source env/bin/activate
+```
+source env/bin/activate
+```
 
 See installed packages.
-
-> pip3 freeze
+```
+pip3 freeze
+```
 
 Install new packages
-
-> pip3 install <packages>
+```
+pip3 install <packages>
+```
 
 #### Stop environment
-
-> deactivate
+```
+deactivate
+```
 
 Note: based in the webpage (https://www.techiediaries.com/ubuntu-install-python/)
 
@@ -139,24 +179,34 @@ Reference: https://virtualenv.pypa.io/en/latest/index.html
 ### 4) Jupyter
 
 ####  Activating your Python 3 Virtual Environment
-
-> source env/bin/activate
+```
+source env/bin/activate
+```
 
 ##### Installing using pip classical Notebook
 
-> pip3 install jupyter
+```
+pip3 install jupyter
+```
 
 check
+```
+jupyter notebook
+```
 
-> jupyter notebook
 
 ##### Installing using pip Jupyter Lab
 
-> pip3 install jupyterlab
+```
+pip3 install jupyterlab
+```
 
 check
 
-> jupyter lab
+```
+jupyter lab
+```
+
 
 References:
 > https://jupyter.org/install
@@ -165,17 +215,7 @@ References:
 
 Remember that the Jupyter only was installed in virtual environment.
 
-### Installing Python and Jupyter using a shell script file
 
-We create a shell script to install Python 3 and Virtual Environment and Jupyter on the fly:
-
-Will be necessary make the file executable:
-
-> $ chmod +x deploy-python-jupyter.sh
-
-After that execute de shell script below:
-
-> $ deploy-python-jupyter.sh
 
 ***
 ### 5) PyCharm
@@ -188,8 +228,9 @@ Let's see how is it:
 ![Interpreter](docs/images/pycharm.png)
 
 #### Installing using sudo
-
-> sudo snap install pycharm-community --classic
+```
+sudo snap install pycharm-community --classic
+```
 
 This way is easy but depends of connectivity of network. The way downloading the files and installing manually is faster than it.
 
@@ -198,7 +239,9 @@ References:
 
 Check
 
-> Open Pycharm -> open /home/afonso/projetcs
+```
+-> Open Pycharm -> open /home/afonso/projetcs
+```
 
 #### Configure PyCharm to works with my GitHub
 
@@ -207,8 +250,9 @@ From the main menu, choose VCS | Import into Version Control | Share Project on 
 
 #### Configure PyCharm to works with my virtual environment Python 3.7
 
-
+```
 File --> Settings --> Project Interpreter --> Project Interpreter DialogBox (put down) 
+```
 
 Click in config button:
 
@@ -223,10 +267,14 @@ Choose create a new environment or one there exist:
 We prepared a shell script to install all packages that will necessary to work.
 
 Changed shell script executable:
-> chmod +x deploy-python-library-env
+```
+chmod +x deploy-python-library-env
+```
 
 Install all packages
-> ./deploy-python-library-env
+```
+./deploy-python-library-env
+```
 
 A good material about how shell scripst:
 
@@ -241,41 +289,54 @@ A good material about how shell scripst:
 We will install a new shell more interisting that traditional bash.
 
 Installing zhs:
-> sudo apt install zsh
+```
+sudo apt install zsh
+```
 
 Check shell installed:
-> zsh --version
+```
+zsh --version
+```
 
 Make it your default shell: 
-> chsh -s $(which zsh)
+```
+chsh -s $(which zsh)
+```
 
 Check it:
-> apropos shell | grep sh | \
->  sed 's/ .*//;s/.*/which &/e;/^\/bin\//!d;s/.*/realpath &/e;/^\/bin\//!d' | \
->  sort -u | xargs whatis
+```
+apropos shell | grep sh | \
+  sed 's/ .*//;s/.*/which &/e;/^\/bin\//!d;s/.*/realpath &/e;/^\/bin\//!d' | \
+  sort -u | xargs whatis
+```
 
 Install curl and wget, if necessary:
-> apt install curl
-> apt install wget
+```
+apt install curl
+apt install wget
+```
 
 Installing Oh My Zsh:
 
-> sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
->
-> curl -Lo install.sh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
->
-> sh install.sh
->
+```
+ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+ curl -Lo install.sh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+
+ sh install.sh
+```
 
 Maybe we needs restarting the notebook to change.
 After that we can check:
-> echo $SHELL
+```
+echo $SHELL
+```
 
 
 Reference material:
->
+
 > https://github.com/ohmyzsh/ohmyzsh
->
+
 > https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 
 ***
@@ -284,15 +345,18 @@ Reference material:
 We install aws client to connect in S3 bucket to put someting or get something.
 
 Install aws-cli:
-> sudo apt-get install awscli
->
-> aws --version
+```
+sudo apt-get install awscli
+
+aws --version
+```
 
 An user must be created in IAM console. For security we not show this part. Details could be see in:
 > https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_cliwpsapi
 
 
 Configure access:
+
 > aws configure
 >
 >> AWS Access Key ID [None]: xxxx
@@ -304,6 +368,7 @@ Configure access:
 >> Default output format [None]: "Name"
  
 List files in S3 bucket:
+
 > aws s3 ls s3://"Your Bucket Name"
 >
 
