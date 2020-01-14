@@ -5,14 +5,14 @@ I used the knowledge accumulate this last months to create a step by step projec
 It is a complete environment connecting resources like Python, GitHub, Jupyter, PyCharm and Ubuntu Linux.
 
 ***
-### Architecture
+# Architecture
 
 ![Architecture](docs/images/Architecture-v1.0.png)
 
 We will start creating a Linux Ubuntu workstation. But slowly I will create all architecture planned. 
 
 ***
-### List of Contents 
+# List of Contents 
 
 1. The Environment - Prepare a notebook with Ubuntu to works a Analytics Workstation
 2. AWS Stuffs
