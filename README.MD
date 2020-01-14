@@ -1,4 +1,4 @@
-# Personal Projects on GitHub
+# Data Science and Data Engineer Worsktation Project
 
 I used the knowledge accumulate this last months to create a step by step project can help anyone to create a usefully Linux Ubuntu notebook prepared to use in data science and data engineer projects.
 
@@ -10,7 +10,11 @@ It is a complete environment connecting resources like Python, GitHub, Jupyter, 
 2. AWS Stuffs
 3. Notebooks - Jupyter Projects - List of Projects
 
+### Architecture
 
+![Architecture](docs/images/Architecture-v1.0.png)
+
+We will start creating a Linux Ubuntu workstation. But slowly I will create all architecture planned. 
 
 ***
 # 1. The Environment 
