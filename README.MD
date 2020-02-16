@@ -81,11 +81,14 @@ https://help.github.com/en/github/importing-your-projects-to-github/adding-an-ex
 We create a shell script to install Python 3 and Virtual Environment and Jupyter on the fly:
 
 Will be necessary make the file executable:
+
 ``
 $ chmod +x deploy-python-jupyter.sh
 ``
 
+
 After that execute de shell script below:
+
 ``
  $ deploy-python-jupyter.sh
 ``
@@ -383,7 +386,14 @@ List files in S3 bucket:
 ***
 # 3. Notebooks
 
-testes
+
+```
+
+Install the package to uso export PDF on Jupyter Notebook
+
+sudo apt-get install texlive-xetex
+
+```
 
 
 
