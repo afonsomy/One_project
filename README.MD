@@ -90,7 +90,7 @@ $ chmod +x deploy-python-jupyter.sh
 After that execute de shell script below:
 
 ``
- $ deploy-python-jupyter.sh
+ $ ./deploy-python-jupyter.sh
 ``
 
 For more manually way see below:
@@ -136,7 +136,7 @@ python3.7 --version
 ***
 #### Install PIP
 
-Installing PIP by Python 3 on Ubuntu 18.04.
+Installing PIP by Python 3 on Ubuntu 19.10.
 ```
 sudo apt install -y python3-pip
 
@@ -322,8 +322,8 @@ apropos shell | grep sh | \
 
 Install curl and wget, if necessary:
 ```
-apt install curl
-apt install wget
+sudo apt install curl
+sudo apt install wget
 ```
 
 Installing Oh My Zsh:
