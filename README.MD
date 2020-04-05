@@ -395,7 +395,16 @@ sudo apt-get install texlive-xetex
 
 ```
 
-# 4. Ubuntu 19.10 ###
+# 4. RSudio
+
+Installing using shell script 
+
+'''
+
+~projects $ ./install_rstudio.sh
+
+'''
+
 
 
 
