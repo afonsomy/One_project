@@ -11,6 +11,8 @@ It is a complete environment connecting resources like Python, GitHub, Jupyter, 
 
 We will start creating a Linux Ubuntu workstation. But slowly I will create all architecture planned. 
 
+Vamos refazer isso!!!
+
 ***
 # List of Contents 
 
