@@ -11,7 +11,7 @@ algumas modificações no Git principalmente.
 ***
 # Architecture
 
-![Architecture](docs/images/Architecture-v2.0.png)
+![Architecture](docs/images/Architecture-v2.0.PNG)
 
 I will create a Windows 10 machine with Ubuntu sub system to work with data science stuffs.
 
