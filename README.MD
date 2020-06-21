@@ -1,13 +1,17 @@
-# Data Science and Data Engineer Worsktation Project
+# Arquitetura de Ferramentas de Dados e Análise
 
-I used the knowledge accumulate this last months to create a step by step project can help anyone to create a usefully Linux Ubuntu notebook prepared to use in data science and data engineer projects.
+A ideia desse documento é criar uma opção de combinação de ferramenas livres e 
+comercias para criar um ambiente de processamento, análise e apresentação de dados.
 
-It is a complete environment connecting resources like Python, GitHub, Jupyter, PyCharm and Ubuntu Linux.
+O objetivo é pensar em um ambiente que seja de custo baixa, mas não necessariamente gratuíto e,
+que possa ser expandido rapidamente. Dessa forma, pode ser utilizado para um individo,
+que é meu caso, até empresas pequenas e médias. Para grandes empresas, seria necessário 
+algumas modificações no Git principalmente.
 
 ***
 # Architecture
 
-![Architecture](docs/images/Architecture-v1.0.png)
+![Architecture](docs/images/Architecture-v2.0.png)
 
 I will create a Windows 10 machine with Ubuntu sub system to work with data science stuffs.
 
