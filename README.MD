@@ -11,11 +11,17 @@ algumas modificações no Git principalmente.
 ***
 # Architecture
 
-![Architecture](docs/images/Architecture-v2.0.PNG)
+![Arquitetura do Ambiente](docs/images/Architecture-v2.0.PNG)
 
-I will create a Windows 10 machine with Ubuntu sub system to work with data science stuffs.
+O Windows 10 com o Ubuntu como sub-sistema foi o escolhido por equilibrar a necessidade de um sistema
+Unix/Linux com a popularidade do sistema Windows. Talvez o melhor seria um Macbook, mas os preços no Brasil
+são absulatemente proibitivos.
 
-An part to create a linux is on:
+Em geral, esse custo extra dos Macbooks eram justificados pelo sua maior capacidade de processamento no longo 
+prazo. Mas isso pode ser facilmente substituido utilizando as ferramentas da Amazon como o SageMaker.
+
+
+A configuração do subsistema Ubuntu é discutido aqui:
 https://github.com/afonsomy/One_project/blob/master/linux-install.md
 
 
