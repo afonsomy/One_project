@@ -28,7 +28,12 @@ prazo. Mas isso pode ser facilmente substituido utilizando as ferramentas da Ama
 
 1. Configuração do Windows e Ubuntu Subsystem
 2. Ubuntu - configuração e associação o Jupyter Notebook
-3. 
+3. Configuração do Pycharm com Git (Under Construction)
+4. Notebooks: Lista dos Notebooks com Programas do Python (Under Construction)
+5. Configuração do R e RStudio (Under Construction)
+6. R books: Lista dos programas feitos em R para análise de dados (Under Construction)
+7. Projetos no Pycharm configurando a infraestrutura AWS (Under Construction)
+
 
 ***
 
@@ -40,6 +45,19 @@ são nativas do mundo do Unix-Linux e se comportam melhor com esse sistema opera
 Devido a isso a Microsoft lançou um subsistema Linux embutido no seu Windows 10. Não é para todos,
 Apenas para aquele poucos usuários que realmente vão precisar das capacidades/compatibildade do Linux.
 
+A seguir seguem os links que utilizei para a configuração do WSL:
+````
+Documentação da própria Microsoft:
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
+````
+
+1.1. Configuração do Pycharm (usando o WSL com execução do Python)
+````
+Documentação da Jetbrains sobre como ajustar o Pycharm para usar o WSL.
+https://www.jetbrains.com/help/pycharm/using-wsl-as-a-remote-interpreter.html
+````
+Ainda em aberto. Alguma etapa não foi conclída corretamente.
+
 ***
 
 ### 2. Ubuntu - configuração e associação o Jupyter Notebook
@@ -49,7 +67,18 @@ Jupyter notebook. Alguns bibliotecas como o pyarrow e o xgboost simplesmente nã
 Windows. Outros como o framework do Spark tem uma configuração muito mais difícil sobre Windows.
 
 
-A configuração do subsistema Ubuntu é discutido aqui:
+A configuração do Ubuntu é discutido aqui:
+
+```
 https://github.com/afonsomy/One_project/blob/master/linux-install.md
+```
+
+A configuração do subsistema é totalmente compatível com o materia anterior.
+Especifcamente para podermos usar o kernel python do subsistema temos que seguir alguns passos extras,
+que são aborados no seguinte documento:
+```
+Yadav, Harshit. Jupyter Notebook in Windows Subsystem for Linux |WSL,
+https://medium.com/@harshityadav95/jupyter-notebook-in-windows-subsystem-for-linux-wsl-8b46fdf0a536
+```
 
 
