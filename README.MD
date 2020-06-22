@@ -1,13 +1,20 @@
 # Arquitetura de Ferramentas de Dados e Análise
 ### (Eternamente em Construção)
 
-A ideia desse documento é criar uma opção de combinação de ferramenas livres e 
-comercias para criar um ambiente de processamento, análise e apresentação de dados.
+Recentemente decidi começar a compilar um diário de bordo para o conhecimento novo que tenho agregado no estudo 
+das novas tecnologias em coleta, armazenamento, transformação e análise de dados. 
+A ambição desse documento será de reunir muito do conhecimento necessário para desempenhar diferentes papéis:
+- Data Engineer
+- Data Science
+- Machine Learnning
+- Statitician
 
-O objetivo é pensar em um ambiente que seja de custo baixa, mas não necessariamente gratuíto e,
-que possa ser expandido rapidamente. Dessa forma, pode ser utilizado para um individo,
-que é meu caso, até empresas pequenas e médias. Para grandes empresas, seria necessário 
-algumas modificações no Git principalmente.
+A ideia desse documento é criar uma opção de combinação de ferramenas livres e comercias para criar um ambiente 
+de processamento, análise e apresentação de dados.
+
+O objetivo é pensar em um ambiente que seja de custo baixa, mas não necessariamente gratuíto e, que possa ser 
+expandido rapidamente. Dessa forma, pode ser utilizado para um individo, que é meu caso, até empresas pequenas e médias.
+Para grandes empresas, seria necessário algumas modificações no Git principalmente.
 
 ***
 
@@ -21,6 +28,11 @@ são absulatemente proibitivos.
 
 Em geral, esse custo extra dos Macbooks eram justificados pelo sua maior capacidade de processamento no longo 
 prazo. Mas isso pode ser facilmente substituido utilizando as ferramentas da Amazon como o SageMaker.
+
+Não escolhi ficar com um ambiente puramente Linux devido a necessidade da plataforma de uso diária necessitar ser
+mais multifunção, incluindo inevitáveis programas baseados no Windows no dia a dia: Microsoft Office, Power BI,
+Tableau, Editores de Video, Jogos e conexão com redes corporativas baseadas no Windows Server.
+
 
 *** 
 
